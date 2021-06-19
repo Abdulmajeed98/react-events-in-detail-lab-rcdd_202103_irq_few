@@ -1,7 +1,7 @@
 // Code DelayedButton Component Here
-import React from 'react';
+import React, {Component} from 'react';
 
-class DelayedButton extends React.Component {
+class DelayedButton extends Component {
   handleClick = event => {
     event.persist();
     window.setTimeout(() => {
